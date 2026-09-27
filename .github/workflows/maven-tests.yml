@@ -24,3 +24,11 @@ jobs:
 
       - name: Run Maven Test Command
         run: mvn clean test
+
+      # New Step: Save and upload the Cucumber HTML Report
+      - name: Upload Cucumber HTML Report
+        if: always() # Runs even if tests fail
+        uses: actions/upload-artifact@v4
+        with:
+          name: cucumber-html-report # Name of the zip file to download
+          path: target/cucumber-reports/ # Path to your generated report
