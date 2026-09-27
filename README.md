@@ -1,0 +1,1 @@
+[![Selenium Cucumber Automation Tests](https://github.com/ramibentaieb-qa/selenium-cucumber-framework/actions/workflows/maven-tests.yml/badge.svg)](https://github.com/ramibentaieb-qa/selenium-cucumber-framework/actions/workflows/maven-tests.yml)
